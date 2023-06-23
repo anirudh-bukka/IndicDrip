@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar() {
     return (
-        <div>Search</div>
+        <div className="sm:max-w-sm border rounded-lg my-4">Search</div>
     );
 };
 

@@ -7,7 +7,7 @@ function Navbar() {
             <div>
                 <img className="p-2 w-[50px] h-[50px] border rounded-lg" src="http://elastic-env.eba-nspycpmu.eu-north-1.elasticbeanstalk.com/"></img>
             </div>
-            <div className="w-[30%] flex flex-row justify-between lg:p-2">
+            <div className="w-[30%] flex flex-row justify-evenly lg:p-2">
                 <Link to="/" className='bg-white lg:max-h-12 p-2 rounded-lg hover:text-[#007aff] duration-200'>Home</Link>
                 <Link to="/blog" className='bg-white lg:max-h-12 p-2 rounded-lg hover:text-[#007aff] duration-200'>Blog</Link>
                 <Link to="/about" className='bg-white lg:max-h-12 p-2 rounded-lg hover:text-[#007aff] duration-200'>About</Link>

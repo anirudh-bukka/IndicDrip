@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      'sm': {'min': '375px', 'max': '767px'},
+      'lg': {'min': '768px'}
+    },
+    extend: {
+      fontFamily: {
+        // 'marbyProReg': ['MabryPro-Regular', 'sans-serif'],
+        // 'marbyProBold': ['MabryPro-Bold', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
