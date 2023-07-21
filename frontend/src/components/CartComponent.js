@@ -54,18 +54,17 @@ function CartComponent() {
         //     </div>
         //     <div className="w-[20%] mx-1 my-1 border rounded-lg">asdfg</div>  
         // </div>
-        <div className="flex flex-row justify-between border rounded-lg mt-2 text-[#5B8190] font-bold">
+        <div className="flex flex-row justify-between rounded-lg mt-2 text-[#5B8190]">
             {/* <div className="w-[10%] mx-1">Checkbox</div>   */}
             <input value = "" type = "checkbox" onChange = {handleChange} className="border rounded-lg w-[10%] mx-1 my-1"/>
-            <div className="border rounded-lg w-[50%] mx-1">PRODUCT</div> 
-            
-                <div className="border rounded-lg w-[20%] mx-1">
-                    <button className="" onClick={increase}>+</button>
-                    <span className="">{counter}</span>
-                    <button className="" onClick={decrease}>-</button>
-                </div>
+            <div className=" rounded-lg w-[50%] mx-1">[ProductName]</div> 
+            <div className="flex flex-row justify-between rounded-lg w-[20%] pr-10">
+                <button className="bg-[#90324F] text-white px-3 rounded-lg" onClick={decrease}>-</button>
+                <span className="">{counter}</span>
+                <button className="bg-[#90324F] text-white px-3 rounded-lg" onClick={increase}>+</button>
+            </div>
 
-            <div className="border rounded-lg w-[20%] mx-1">PRICE</div>  
+            <div className="rounded-lg w-[20%] mx-1 font-semibold">₹[xxxx]</div>  
             {/* border rounded-lg */}
         </div>
     )

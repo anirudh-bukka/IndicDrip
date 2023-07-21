@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Catalogue from "./Catalogue";
+import Catalogue from "./Catalogue.js";
 import Carousel from "../components/Carousel.js";
 
 function HomePage() {
