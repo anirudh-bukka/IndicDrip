@@ -8,6 +8,10 @@ import Seller from "./pages/Seller.js";
 import SearchBar from "./components/SearchBar.js";
 import Footer from "./components/Footer.js";
 import DetailsPage from "./pages/DetailsPage.js";
+import Cart from "./pages/Cart.js";
+import Blog from "./pages/Blog.js";
+import BlogCard from "./components/BlogCard.js";
+import Compose from "./pages/Compose.js";
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/sell" element={<Seller />} />
           <Route path="/details" element={<DetailsPage />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogcard" element={<BlogCard />} />
+          <Route path="/compose" element={<Compose />} />
         </Routes>
       </div>
       <Footer />

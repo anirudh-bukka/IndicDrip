@@ -8,7 +8,7 @@ import Instagram from "../assets/instagram.svg";
 
 function Footer() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-[#5B8190] mt-[100%]">
             <div className="flex flex-row justify-between mx-2">
                 ANIRUDH BUKKA
                 <div className="flex flex-row justify-around">
